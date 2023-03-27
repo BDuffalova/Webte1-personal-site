@@ -1,0 +1,104 @@
+@font-face {
+	font-family: "Roboto";
+	src: url('../CSS/fonts//Lobster-Regular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    font-family: "Roboto";
+}
+
+header {
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 30px;
+}
+
+footer {
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Brush,sans-serif;
+    font-size: 1vw;
+    margin-top: 50px;
+    width: 100%;
+}
+
+body {
+    background-color: #07F3FA;
+    background-image: url("../CSS/img/hl_stranka_pozadie.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    height: fit-content;
+}
+
+.logo {
+    width: 10vw;
+    height: auto;
+}
+
+hr {
+    background-color: rgb(253, 253, 253,0.7);
+    border-style: solid;
+    border-width: 0;
+    height: 1px;
+    width: 60%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+    /* background-color: rgb(0,0,0,0.7); */
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+.menu li {
+    height: fit-content;
+    list-style-type: none;
+    margin: 0px 10px;
+    
+
+}
+
+.menu li a {
+    color: aliceblue;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.uvodne-nadpisy {
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    
+}
+
+.uvodne-nadpisy h1 {
+    font-size: 5vw;
+    
+    
+}
+
+.uvodne-nadpisy h2 {
+    font-size: 2.7vw;
+    
+    
+}
